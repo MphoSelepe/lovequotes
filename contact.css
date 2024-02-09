@@ -1,0 +1,128 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+
+
+}
+body {
+    font-family: Arial, sans-serif;color: #060606;
+    margin: 10;
+    padding: 150;
+    background-color: #aeb2a8;
+    text-align:left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: #d3cfcf;
+    color: #f41004;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+nav ul li a{
+      font-weight:bold;
+      color: white;
+      text-decoration: none;
+
+}
+nav ul li a:hover{
+    color:#f41004;
+    transition: .3s;
+}
+.contact-container{
+         height: 150vh;
+         display: flex;
+         justify-content: space-evenly;
+         
+
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.contact-left-title h2{
+
+font-weight: 600;
+color:rgb(255, 0, 30);
+font-size:40px;
+margin-bottom: 5px;
+}
+.contact-left-title hr{
+
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: #060606;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+.contact-inputs{
+
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight:500;
+    color:rgb(61, 65, 65);
+    border-radius: 50px;
+
+}
+.contact-left textarea{
+
+    height: 140px;
+    padding-top:15px ;
+    border-radius: 20px;
+}
+.contact-inputs:focus{
+
+    border: 2px solid #f41004;
+
+}
+.contact-inputs::placeholder{
+
+    color: rgb(61, 65, 65);
+
+
+}
+.contact-left button{
+
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px ;
+    color:rgb(61, 65, 65);
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg,#ff994f,#fa6d86);
+    cursor: pointer;
+}
+@media (max-width:800px) {
+
+            .contact-inputs{
+                width: 80vw;
+            }
+    
+}
+
+footer{
+
+    background-color: rgb(6, 22, 83);
+    color:#fff;
+    padding:10px;
+    bottom: 16;
+    width: 100%;
+}
