@@ -9,14 +9,15 @@ body {
     font-family: Arial, sans-serif;color: #060606;
     margin: 10;
     padding: 150;
-    background-color: #aeb2a8;
+    background-color: #e9bfd0;
     text-align:left;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-family: 'Poppins', sans-serif;
 }
 
 header {
-    background-color: #d3cfcf;
+    background-color: #000000;
+;
     color: #f41004;
     padding: 5px;
     font-family: 'Poppins', sans-serif;
