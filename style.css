@@ -8,11 +8,11 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 header {
-    background-color: #000000;
+    background-color: black;
     color: #f41004;
     padding: 10px;
     font-family: 'Poppins', sans-serif;
-    border-radius: 15px;
+    border-radius: 35px;
 }
 secton{
     padding:20px;
