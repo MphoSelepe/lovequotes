@@ -23,6 +23,13 @@ header {
     font-family: 'Poppins', sans-serif;
    
 }
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
 nav ul li a{
       font-weight:bold;
       color: white;
@@ -32,11 +39,6 @@ nav ul li a{
 nav ul li a:hover{
     color:#f41004;
     transition: .3s;
-}
-
-
-         
-
 }
 .contact-left{
     display: flex;
