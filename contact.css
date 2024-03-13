@@ -9,19 +9,18 @@ body {
     font-family: Arial, sans-serif;color: #060606;
     margin: 10;
     padding: 150;
-    background-color:  #aeb2a8;;
+    background-color: #aeb2a8;
     text-align:left;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-family: 'Poppins', sans-serif;
 }
 
 header {
-    background-color: #000000;
-;
+    background-color: #d3cfcf;
     color: #f41004;
     padding: 5px;
     font-family: 'Poppins', sans-serif;
-   
+    border-radius: 15px;
 }
 nav ul {
     list-style: none;
@@ -39,6 +38,13 @@ nav ul li a{
 nav ul li a:hover{
     color:#f41004;
     transition: .3s;
+}
+.contact-container{
+         height: 150vh;
+         display: flex;
+         justify-content: space-evenly;
+         
+
 }
 .contact-left{
     display: flex;
@@ -115,7 +121,7 @@ margin-bottom: 5px;
 
 footer{
 
-    background-color: black;
+    background-color: rgb(6, 22, 83);
     color:#fff;
     padding:10px;
     bottom: 16;
