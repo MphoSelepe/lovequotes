@@ -26,27 +26,22 @@ background-color: #000000;
     bottom: 0;
     width: 100%;
 }
-nav ul {
-list-style: none;
-padding: 0;
-
-}
-
-nav li {
-display: inline;
-margin-right: 30px;
-}
-
-
 nav ul li a{
-    font-weight:bold;
-    color: white;
-    text-decoration: none;
+      font-weight:bold;
+      color: white;
+      text-decoration: none;
 
 }
 nav ul li a:hover{
-  color:#f41004;
-  transition: .3s;
+    color:#f41004;
+    transition: .3s;
+}
+.contact-container{
+         height: 150vh;
+         display: flex;
+         justify-content: space-evenly;
+         
+
 }
 
 section {
