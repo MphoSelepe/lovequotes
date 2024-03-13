@@ -16,11 +16,11 @@ body {
 }
 
 header {
-    background-color: #d3cfcf;
+    background-color: black;
     color: #f41004;
     padding: 5px;
     font-family: 'Poppins', sans-serif;
-    border-radius: 15px;
+    
 }
 nav ul {
     list-style: none;
@@ -121,7 +121,7 @@ margin-bottom: 5px;
 
 footer{
 
-    background-color: rgb(6, 22, 83);
+    background-color: #000000;
     color:#fff;
     padding:10px;
     bottom: 16;
