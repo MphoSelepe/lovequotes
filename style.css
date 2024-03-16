@@ -18,14 +18,15 @@ secton{
     padding:20px;
 }
 
+
 footer{
-background-color: #000000;
-;
+
+    background-color: #000000;
     color:#fff;
     padding:10px;
-    bottom: 0;
+    bottom: 16;
     width: 100%;
-    border-radius: 20px;
+   border-radius: 20px;
 }
 nav ul li a{
       font-weight:bold;
