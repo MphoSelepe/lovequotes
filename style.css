@@ -1,3 +1,11 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+
+
+}
+
 body {
     font-family: Arial, sans-serif;color: #060606;
     margin: 10;
@@ -14,9 +22,7 @@ header {
     font-family: 'Poppins', sans-serif;
     
 }
-secton{
-    padding:20px;
-}
+
 
 
 footer{
