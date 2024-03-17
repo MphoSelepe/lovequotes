@@ -203,3 +203,13 @@ button{
     color:white;
 
 }
+h1{
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+p{
+    font-weight: bold;
+
+}
