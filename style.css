@@ -9,6 +9,15 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-family: 'Poppins', sans-serif;
 }
+header {
+ 
+    background-color: #000000;
+    color: #f41004;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
 
 
 footer{
