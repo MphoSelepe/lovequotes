@@ -14,21 +14,39 @@
         </head>
     <title> Contact us </title>
     <body>
+    <nav>
+        
+        <img src="Images/logo.png" width="20%" >
 
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5999142367305573"
-     crossorigin="anonymous"></script>
-        <header>
-            <img src="Images/logo.png" width="200px" >
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                     <li><a href="BIRTHDAY.html">Birthday Wishes</a></li>
-                    <li><a href="Bible quotes.html">Bible Quotes</a></li>
-                    <li><a href="About.html">About</a></li>
-                    <li><a href="contact us.html">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+        <ul class="sidebar">
+            
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="Website.html">Home</a></li>
+            <li><a href="BIRTHDAY.html">Birthday Wishes</a></li>
+            <li><a href="Bible quotes.html">Bible Quotes</a></li>
+            <li><a href="About us.html">About us</a></li>
+            <li><a href="contact us.html">Contact</a></li>
+            
+        </ul>
+        <ul>
+            
+            
+            <li class="menu-button"showSidebar()><a href=""><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+           
+        </ul>
+        </div>
+    </nav>
+    <script>
+        function showSidebar(){
+            const sidebar= document.querySelector('.sidebar')
+            sidebar.style.display= 'flex'
+        }
+        function hideSidebar(){
+            const sidebar= document.querySelector('.sidebar')
+            sidebar.style.display= 'none'
+        }
+
+    </script>
         <br>
         <div class="contact-container">
           <form  action="https://api.web3forms.com/submit" method="POST" class="contact-left">
