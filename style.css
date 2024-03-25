@@ -142,43 +142,13 @@ body{
 
         
     }
-    header nav :after{
-    top: 17px;
-    }
-    header nav :before{
-     top: 7px;
-    }
-
-    header nav :after,
-    header nav :before{
-        content:"";
-        height: 2px;
-        width: 17px;
-        background-color: #fff;
-        display:block;
-        position:absolute;
-        left:0px;
-        
-
-    }
 
 header nav ul {
       position:absolute;
       right: -400px;
       top: 53px;
       transition: 0.5s;
-}
 
-header nav:hover ul{
-    right:0;
-}
-header nav ul li {
-    display: block;
-}
-header nav ul li a{
-    width:300px;
-    background-color: rgba(0, 0, 0, 0.6);
-}
 .banner{
     background-position-x: 65% ;
 }
