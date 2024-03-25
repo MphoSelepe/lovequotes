@@ -20,13 +20,10 @@
 
 </head>
 <body>
-    <div class="fullContainer banner" id="homesection">
-        <header>
-         <div class="container">
-            <div class="logo">
-              <img src="Images/logo.png" alt="lovequotesms logo" width="200px"/>
-            </div>
-    <nav>
+    
+   
+    <nav id="menu-links">
+        <img src="Images/logo.png" class="logo">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="birthday Wishes.html">Birthday Wishes</a></li>
@@ -34,76 +31,42 @@
             <li><a href="love.html">love quotes</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
+        <button class="nav-btn">Get started<img src="Images/arrow-white.png"></button>
+        <img src="Images/menu.png" width="50px" class="menu-icon"
+        onclick="toogleMenu()">
     </nav>
+    <div class="header">
+        <div class="header-content">
+        <h1><span>Welcome</span></h1>
+    </div>
+    
+        <p>We share Love quotes, bible quotes and birthday whishes </p>
+
+        <img src="Images/unnamed.18.jpg" class="home-img"><br>
+       
+    </div>
+   
+    <script>
+        let navbar = document.querySelector('nav');
+        let menuLinks = document.getElementById("menu-links");
+        function toogleMenu(){
+            menuLinks.classList.toggle('show-menu');
+        }
+
+        window.onscroll = function(){
+                    if(window.scrollY > 0){
+                        navbar.style.background = '#eeff9';
+                    }else{
+                        navbar.style.background = 'transparent';
+
+                    }
+        }
+    </script>
     
 
-      </header>
-      <!-- header end here -->
-
-      <div class="container">
-        <h1>Welcome</h1>
-        <p>We share love quotes, bible quotes and birthday wishes </p>
-        <button>Click to Start <li><a href="love.html">>>>></a></li></button>
-      </div>
-      
-</div>
-<!-- homesection end here -->
-<section class="fullContainer" id="aboutSection">
-        <div class="container2">
-            <h2 class="sectionTitle">About Us</h2>
-            <p>
-                Since 2024 we became fascinated by the idea of discovering the Best love qoutes, Bible quotes and Birthday wishes that will help people who are detecting love, Bible and birthday messages for their partners and ect.
-                Lovequotesms, edited by Mpho Selepe, represents the best of what a modern media house can produce. Today’s Lovequotesms are storytellers and do so in a variety of ways on numerous platforms. We offer our readers a smooth journey and fully integrated experience across mobile, tablet, print and online. Our value propositions are tailored to fit the various interests of our readers.<br><br>
-    
-    Our vision:<br>
-    
-    Lovequotesms is a mobile-first, local- website ;lovequotesms first in keeping our readers with lovely love quotes, Bible quotes and Birthday messages.<br><br>
-    
-    Our mission:<br>
-    
-    Lovequotesms is one of the most trusted love quotes, Bible quotes and Birthday wishes messages in South Africa and aims to be first in breaking and unpacking quotes for our readers to remain on top of love quotes, Bible quotes and Birthday messages nationally and internationally. We also share relevant Birthday wishes, Advertisment, advise and love messages content that resonate with our readers’ fields of interest, while offering a desirable audience for advertisers on our platforms.
-    
-    Lovequotesms is also an important information vehicle for local and national advertising.
-            </p>
-            
-            <footer>
-                <div class="container">
-
-                   
 
 
-        
-                   <!-- newsLetterContainer -->
-                   <div class="linksContainer">
-                    <div class="title">Useful Links</div>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="birthday Wishes.html">Birthday Wishes</a></li>
-                        <li><a href="Bible quotes.html">Bible Quotes</a></li>
-                        <li><a href="love.html">love quotes</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
 
-                   </div>
-                   <!-- linksContainer -->
-                   <div class="connectContainer">
-                    <div class="title">Connect with us</div>
-                    <p>
-                        4735 Leeba Street Zone 4 Diepkloof,Johannesburg Soweto 1862 <br>
-                        Mphoselepe727@gmail.com<br>
-                        Mphoselepe2004@gmail.com<br>
-                        +27 72 209 9428<br>
-                        +27 79 506 7278<br>
-
-
-                    </p>
-                    
-
-                   </div>
-                </div>
-                <p>&copy; 2024-2025 lovequotesms.com ALL rights reserved.</p>
-
-            </footer>
 
 
 </body>
