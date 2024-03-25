@@ -197,4 +197,123 @@ header nav ul li a{
         line-height: 3rem;
       }
 }
+    
+
+
+
+
+
+/* responsive website code end*/
+
+/*Footer start from header */
+
+footer{
+    background-color: #000000;
+    
+    padding: 50px 0;
+    font-size: 14px;
+    color: #7f7f7f;
+    background-color: #000000;
+    color:#fff;
+    padding:20px;
+     margin: 0;
+    bottom: 16;
+    width: 90%;
+   border-radius: 10px;
+    
+}
+footer .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 50px;
+   
+}
+footer .title{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 2px solid;
+    margin-bottom: 30px;
+    padding: 0 0 5px 0;
+    text-align: center;
+    
+}
+footer p{
+    margin-bottom: 10px;
+}
+
+footer .linksContainer ul li a{
+    text-decoration: none;
+    color: #7f7f7f;
+    margin-bottom: 10px;
+    display: inline-block;
+    
+}
+
+
+
+
+/*Footer end from header */
+header.container{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+header.container.logo{
+    padding: 15px 0;
+    
+}
+header.container.logo img{
+    height:100%;
+
+}
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    display: inline-block;
+    height: 75px;
+    
+    padding: 0 15px;
+    text-decoration: none;
+    
+    font-size: 16px;
+    color: white;
+    transition: 0.3s;
+}
+nav ul li a:hover{
+    color:#f41004;
+    transition: .3s;
+}
+
+.banner h1{
+    margin-top: 230px;
+    display: inline-block;
+    font-size: 3.5rem;
+    text-shadow: 0 0 2px#000000;
+    color: azure;
+    
+    font-weight: 100;
+}
+.banner p{
+    color:black;
+    width: 50%;
+    text-shadow: 0 0 2px #efefef;
+}
+.banner{
+    
+    width: 100%;
+    background-image: url("Image/unnamed.18.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.banner button{
+    background-color: #e43a47;
+    border-radius: 5px;
+}
 
