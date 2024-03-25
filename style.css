@@ -129,6 +129,9 @@ nav .logo{
 }
 /*--- media and responsive ---*/
 @media only screen and (max-width:600px){
+    nav{
+        background-color: #f7f1f1;
+    }
     nav ul{
         position: absolute;
         width: 100%;
