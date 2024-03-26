@@ -1,14 +1,64 @@
+
 /* common style start */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-:root{
-    --themeRed:#e43a47;
-    --gray: #efefef;
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #ffccc1;
+    font-family: 'poppins', sans-serif;
+       
+   }
+   .burger{
+       display: none;
+       cursor: pointer;
+   }
+   .burger div{
+       width:25px;
+       height:3px;
+       background-color: #fff;
+       margin: 5px;
+   
+   }
+   .nav-links{
+       display: flex;
+       justify-content: space-around;
+       
+   }
+   .nav-links a{
+       color: #000;
+       text-decoration: none;
+       font-weight: bold;
+       font-size: 14px;
+   }
+   nav ul li{
+       list-style: none;
+       display: inline-block;
+       margin: 20px;
+       font-weight: 500;
+       cursor: pointer;
+   
+   }
+   .logo{
+       
+       text-transform: uppercase;
+       letter-spacing: 5px;
+       font-size: 20px;
+       
+   }
 
 body {
     font-family: Arial, sans-serif;color: #060606;
-   margin: 5px;
-   padding: 0px;
+   margin: 10px;
+   padding: 11px;
    background-color: White;
    text-align:left;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -16,18 +66,7 @@ body {
   
 }
 
-header {
- 
-    
 
-    background-color: #000000;
-        
-    color: #f41004;
-    padding: 1px;
-    font-family: 'Poppins', sans-serif;
-    border-radius: 2px;
-    
-}
 footer{
 
     background-color: #000000;
@@ -56,7 +95,7 @@ footer{
 }
 h1{
     font-style: italic;
-    font-weight: 200;
+    font-weight: bold;
 }
 
 
@@ -65,9 +104,6 @@ h2{
    font-weight: bold;
    color:purple;
      
-}
-.banner button{
-    background-color: #e43a47;
 }
 
 
@@ -90,58 +126,175 @@ p{
 
 /* home style start */
 
-
-header.container{
+nav{
     display: flex;
-    justify-content: space-between;
-
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #ffccc1;
+    font-family: 'poppins', sans-serif;
+       
+   }
+   .burger{
+       display: none;
+       cursor: pointer;
+   }
+   .burger div{
+       width:25px;
+       height:3px;
+       background-color: #fff;
+       margin: 5px;
+   
+   }
+   .nav-links{
+       display: flex;
+       justify-content: space-around;
+       
+   }
+   .nav-links a{
+       color: #000;
+       text-decoration: none;
+       font-weight: bold;
+       font-size: 14px;
+   }
+   nav ul li{
+       list-style: none;
+       display: inline-block;
+       margin: 20px;
+       font-weight: 500;
+       cursor: pointer;
+   
+   }
+   .logo{
+       
+       text-transform: uppercase;
+       letter-spacing: 5px;
+       font-size: 20px;
+       
+   }
+   @media screen and (max-width: 10024px){
+       .nav-links{
+           width:60%;
+   
+       }
+   }
+   
+   nav ul li a{
+       text-decoration: none;
+       color: black;
+   }
+   nav .logo{
+       width: 220px;
+       cursor: pointer;
+   }
+  
+   
+   .header{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(#eefff9 0%, #ffccc1 49%, #dcdbff 100%);
+    padding: 0 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
-header.container.logo{
-    padding: 15px 0;
-    height:75px;
+.header h1{
+    margin-top: 100px;
+    font-size: 8vw;
+    line-height: 11vw;
 }
-header.container.logo img{
-    height:100%;
-
-}
-header nav ul{
-    list-style-type: none;
-}
-header nav ul li {
-    display: inline-block;
-}
-header nav ul li a {
-    display: inline-block;
-    height: 75px;
-    
-    padding: 0 15px;
-    text-decoration: none;
-    text-transform: capitalize;
-    font-size: 16px;
-    color: white;
-    transition: 0.3s;
-}
+   .home-img{
+       width: 80%;
+       max-width: 500px;
+       position: absolute;
+       right: 2%;
+       bottom: 0;
+       border-radius: 10px;
+   }
+   /*-- animation --*/
+   .header h1 span{
+       background: linear-gradient(#000, #000);
+       background-repeat: no-repeat;
+       -webkit-text-fill-color: black;
+       background-size: 0%;
+   }
+   .header h1 span:first-child{
+        animation: textcolor 2s linear infinite alternate;
+   
+   }
+   .header h1 span:last-child{
+       animation: textcolor 2s linear infinite alternate;
+   
+   }
+   @keyframes navLinkFade{
+          from{
+           opacity: 0;
+           transform: translateY(50%);
+          }
+          to{
+           opacity: 1;
+           transform: translateY(0px);
+          }
+          
+   
+   }
+   
+   
+   
+   .menu-icon{
+       display:none;
+   }
+   /*--- media and responsive ---*/
+   @media only screen and (max-width:600px){
+   body{
+       overflow-x:hidden ;
+       overflow-y: hidden;
+       
+   }
+   .nav-links a{
+       color: #000;
+   }
+   
+       .nav-links{
+           position:absolute;
+           right:0;
+           height: 92vh;
+           top:8vh;
+           background-color:  #f4e8e5;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           width: 50% ;
+           color: #000;
+           
+           transform: translateY(100%);
+          
+       }
+       .nav-links li{
+           opacity: 1;
+   
+       }
+       .burger{
+           display: block;
+       }
+       .nav-active{
+           transform: translateY(0%);
+           transform: translateX(0%);
+       }
+       .home-img{
+           width: 80%;
+           max-width: 200px;
+           position: absolute;
+           right: 2%;
+           bottom: 0;
+           border-radius: 10px;
+           left: 2%;
+   
+       
+   }
+   
+   }
 nav ul li a:hover{
     color:#f41004;
     transition: .3s;
-}
-.banner h1{
-    margin-top: 230px;
-    display: inline-block;
-    font-size: 3.5rem;
-    text-shadow: 0 0 2px#000000;
-    color: azure;
-    width: 402rem;
-    font-weight: 100;
-}
-.banner p{
-    color:black;
-    width: 50%;
-    text-shadow: 0 0 2px #efefef;
-}
-.banner{
-    min-height: 100vh;
-    width: 100%;
-    background-size: cover;
-    background-attachment: fixed;
 }
