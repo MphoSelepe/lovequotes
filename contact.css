@@ -57,10 +57,6 @@ nav{
        
    }
    @media screen and (max-width: 10024px){
-       .nav-links{
-           width:60%;
-   
-       }
    }
    
    nav ul li a{
@@ -161,7 +157,7 @@ nav{
            
            color: #000;
            
-           transform: translateY(10%);
+           transform: translateX(10%);
           
        }
        .nav-links li{
@@ -172,7 +168,7 @@ nav{
            display: block;
        }
        .nav-active{
-           transform: translateY(0%);
+           transform: translateX(0%);
            transform: translateX(0%);
        }
        .home-img{
