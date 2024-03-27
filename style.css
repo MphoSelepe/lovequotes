@@ -181,8 +181,9 @@ nav .logo{
            background-color:  #f4e8e5;
            display: flex;
            flex-direction: column;
-           align-items: center;
-         
+           align-items:start;
+           padding-right: 1px;
+           width: 35%;
            color: #000;
            transition: transform 0.5s ease-in;
            transform: translateX(100%);
