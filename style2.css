@@ -254,7 +254,8 @@ nav{
            position:absolute;
            right:0;
            height: 92vh;
-           top:8vh;
+           top:10vh;
+           border-radius: 10px;
            background-color:  #f4e8e5;
            display: flex;
            flex-direction: column;
