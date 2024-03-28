@@ -96,9 +96,9 @@ nav .logo{
 
 .home-img{
     width:50%;
-    max-width: 600px;
+   
     position: absolute;
-    right: 8%;
+    right: 2%;
     bottom: -200px ;
     
     border-radius: 10px;
@@ -203,6 +203,7 @@ nav .logo{
            transform: translateX(0%);
        }
        .home-img{
+           display: none;
            width: 80%;
            max-width: 200px;
            position: absolute;
