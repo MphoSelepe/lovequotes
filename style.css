@@ -73,6 +73,7 @@ nav ul li a{
 nav .logo{
     width: 220px;
     cursor: pointer;
+    
 }
 .nav-btn{
     background: #000;
@@ -177,6 +178,11 @@ nav .logo{
    .nav-links a{
        color: #000;
    }
+       nav .logo{
+    width: 220px;
+    cursor: pointer;
+    font: size;
+       }
    
        .nav-links{
            position:fixed;
