@@ -54,7 +54,7 @@ nav ul li{
     font-size: 20px;
     
 }
-@media screen and (max-width: 10024px){
+@media screen and (max-width: 1024px){
     .nav-links{
         width:60%;
 
@@ -95,7 +95,7 @@ nav .logo{
 
 
 .home-img{
-    width:250px;
+    width:50px;
     position: absolute;
     right: 8%;
     bottom: 0;
