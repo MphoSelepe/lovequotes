@@ -116,14 +116,8 @@ nav .logo{
     -webkit-text-fill-color: black;
     background-size: 0%;
 }
-.header h1 span:first-child{
-     animation: textcolor 2s linear infinite alternate;
 
-}
-.header h1 span:last-child{
-    animation: textcolor 2s linear infinite alternate;
 
-}
 @keyframes navLinkFade{
        from{
         opacity: 0;
@@ -182,6 +176,12 @@ nav .logo{
     width: 220px;
     cursor: pointer;
     font: size;
+       }
+       .logo{
+    
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
        }
    
        .nav-links{
