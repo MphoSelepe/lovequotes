@@ -96,13 +96,11 @@ nav .logo{
 
 .home-img{
     width: 450px;
-    
     position: absolute;
-    right: 5%;
-    bottom: 0;
-    border-radius: 10px;
+    right: 10%;
+    bottom: -5%;
+    
 }
-/*-- animation --*/
 .header h1 span{
     background: linear-gradient(#000, #000);
     background-repeat: no-repeat;
