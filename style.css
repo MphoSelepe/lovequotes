@@ -200,6 +200,11 @@ nav .logo{
            opacity: 1;
    
        }
+       nav ul li a:hover{
+    color:#f41004;
+    transition: .3s;
+}
+
        .burger{
            display: block;
        }
