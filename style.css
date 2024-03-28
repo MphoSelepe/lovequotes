@@ -16,6 +16,9 @@ nav{
  font-family: 'poppins', sans-serif;
     
 }
+body{
+    background: linear-gradient(#eefff9 0%, #ffccc1 49%, #dcdbff 100%);
+}
 nav ul li a:hover{
     color:#f41004;
     transition: .3s;
