@@ -236,7 +236,7 @@ body{
 }
 
  .nav-links{
-     position:absolute;
+     position:fixed;
      right:0;
      height: 60vh;
      top:10vh;
