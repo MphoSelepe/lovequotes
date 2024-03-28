@@ -7,7 +7,9 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-family: 'Poppins', sans-serif;
 }
-
+body{
+    background: linear-gradient(#eefff9 0%, #ffccc1 49%, #dcdbff 100%);
+}
 
 .contact-container{
     height: 150vh;
