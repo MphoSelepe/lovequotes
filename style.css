@@ -16,6 +16,11 @@ nav{
  font-family: 'poppins', sans-serif;
     
 }
+nav ul li a:hover{
+    color:#f41004;
+    transition: .3s;
+}
+
 .burger{
     display: none;
     cursor: pointer;
@@ -214,5 +219,9 @@ nav .logo{
    
        
    }
-    
+    nav ul li a:hover{
+    color:#f41004;
+    transition: .3s;
+}
+
    }
