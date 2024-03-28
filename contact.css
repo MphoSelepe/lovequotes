@@ -446,7 +446,7 @@ margin-bottom: 5px;
 
 footer{
 
-    background-color: #000000;
+     background: linear-gradient(#eefff9 0%, #ffccc1 49%, #dcdbff 100%);
     color:#fff;
     padding:10px;
      margin: 0;
