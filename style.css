@@ -95,10 +95,12 @@ nav .logo{
 
 
 .home-img{
-    width:50px;
+    width:80px;
+    max-width: 500px;
     position: absolute;
     right: 8%;
-    bottom: 0;
+    bottom: -200px ;
+    
     border-radius: 10px;
     
 }
