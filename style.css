@@ -58,8 +58,8 @@ nav ul li{
 .logo{
     
     text-transform: uppercase;
-    letter-spacing: 5px;
-    font-size: 20px;
+    letter-spacing: 2px;
+    font-size: 14px;
     
 }
 @media screen and (max-width: 1024px){
