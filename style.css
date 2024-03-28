@@ -222,7 +222,7 @@ nav .logo{
            transform: translateX(0%);
        }
        .home-img{
-           display: none;
+           
            width: 80%;
            max-width: 200px;
            position: absolute;
