@@ -263,9 +263,9 @@ nav{
        .nav-links{
            position:fixed;
            right:0;
-           height: 60vh;
+           height: 90vh;
            top:10vh;
-           border-radius: 10px;
+           border-radius: 5px;
            background-color:  #f4e8e5;
            display: flex;
            flex-direction: column;
