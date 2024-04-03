@@ -20,6 +20,9 @@ body{
     background: linear-gradient(#eefff9 0%, #ffccc1 49%, #dcdbff 100%);
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    font-family: 'Poppins', sans-serif;
+     margin: 10px;
+   padding: 11px;
+    
 }
 nav ul li a:hover{
     color:#f41004;
