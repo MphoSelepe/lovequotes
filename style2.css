@@ -4,14 +4,7 @@
     --themeRed:#e43a47;
     --gray: #efefef;
 }
-nav{
- display: flex;
- justify-content: space-around;
- align-items: center;
- background-color: #ffccc1;
- font-family: 'poppins', sans-serif;
-border-radius: 5px;
-}
+
 .burger{
     display: none;
     cursor: pointer;
@@ -24,25 +17,7 @@ border-radius: 5px;
     transition: all 0.3s ease;
 
 }
-.nav-links{
-    display: flex;
-    justify-content: space-around;
-    
-}
-.nav-links a{
-    color: #000;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 14px;
-}
-nav ul li{
-    list-style: none;
-    display: inline-block;
-    margin: 20px;
-    font-weight: 500;
-    cursor: pointer;
 
-}
 .logo{
     
     text-transform: uppercase;
@@ -59,6 +34,39 @@ body {
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    font-family: 'Poppins', sans-serif;
   
+}
+.taskbar {
+	background-color: #333;
+	padding: 10px;
+	text-align: center;
+}
+
+.taskbar ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.taskbar li {
+	margin-right: 20px;
+}
+
+.taskbar a {
+	color: #fff;
+	text-decoration: none;
+	transition: color 0.2s ease;
+}
+
+.taskbar a:hover {
+	color: #ccc;
+}
+
+.taskbar a.active {
+	background-color: #555;
+	padding: 10px;
+	border-radius: 5px;
 }
 
 
@@ -128,6 +136,7 @@ nav{
     background-color: #ffccc1;
     font-family: 'poppins', sans-serif;
     border-radius: 5px;
+       
    }
    .burger{
        display: none;
@@ -205,33 +214,7 @@ nav{
        bottom: 0;
        border-radius: 10px;
    }
-   /*-- animation --*/
-   .header h1 span{
-       background: linear-gradient(#000, #000);
-       background-repeat: no-repeat;
-       -webkit-text-fill-color: black;
-       background-size: 0%;
-   }
-   .header h1 span:first-child{
-        animation: textcolor 2s linear infinite alternate;
    
-   }
-   .header h1 span:last-child{
-       animation: textcolor 2s linear infinite alternate;
-   
-   }
-   @keyframes navLinkFade{
-          from{
-           opacity: 0;
-           transform: translateY(50%);
-          }
-          to{
-           opacity: 1;
-           transform: translateY(0px);
-          }
-          
-   
-   }
 .toggle .line1{
     transform: rotate(-45deg) translate(-5px, 6px);
     }
@@ -249,10 +232,8 @@ nav{
    }
    /*--- media and responsive ---*/
    @media only screen and (max-width:1000px){
-   body{
-       
-       
-   }
+   body
+
    .nav-links a{
        color: #000;
    }
