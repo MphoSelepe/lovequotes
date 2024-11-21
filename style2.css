@@ -8,10 +8,9 @@ nav{
  display: flex;
  justify-content: space-around;
  align-items: center;
- min-height: 8vh;
  background-color: #ffccc1;
  font-family: 'poppins', sans-serif;
-    
+border-radius: 5px;
 }
 .burger{
     display: none;
