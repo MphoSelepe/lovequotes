@@ -54,8 +54,7 @@ nav ul li{
 
 body {
     font-family: Arial, sans-serif;color: #060606;
-   margin: 10px;
-   padding: 11px;
+   margin: 3px;
    background-color: White;
    text-align:left;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -127,10 +126,9 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 8vh;
     background-color: #ffccc1;
     font-family: 'poppins', sans-serif;
-       
+    border-radius: 5px;
    }
    .burger{
        display: none;
