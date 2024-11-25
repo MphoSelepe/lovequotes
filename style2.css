@@ -246,3 +246,13 @@ nav .logo{
 }
 
    }
+footer{
+
+     background: linear-gradient(#eefff9 0%, #ffccc1 49%, #dcdbff 100%);
+    color:black;
+    padding:22px;
+     margin: 0;
+    bottom: 16;
+    width: 90%;
+   border-radius: 10px;
+}
